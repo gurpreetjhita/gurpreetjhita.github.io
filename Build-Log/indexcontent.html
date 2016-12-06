@@ -1,0 +1,221 @@
+<ARTICLE ID="Article_1">
+ <HEADER ID="Header_Article_1">
+  <H2>Building IoT Projects</H2>
+	  <H2><b><u>Masoud Rahguzar</u></b></H2>
+<H4>Build Instruction:Part Crib Project</H4>
+ </HEADER>
+	
+	<SECTION ID="Section_0">
+		<H3>Introduction</H3>
+		<p>For my Hardware project, I decided to work on the Parts Crib database. With all of the knowledge I have acquired in 
+		my previous courses, I believe I have the skills to properly design and program a piece of hardware that will work in 
+		conjunction with a smartphone/tablet application. The main purpose is to bring a more efficient and advanced experience 
+		between students and employees. Right now the parts crib is using paper and pen to sign in/out equipment along with 
+		leaving your student ID. With our hardware we plan to modernize the experience by scanning in each student’s library 
+		barcode to identify students and scanning QR codes to identify parts and link the rented equipment with the student 
+		barcode ID in our network database. The database will also collectively produce data that can be used to help identify 
+		higher demands for certain items and also help track lost inventory. My project team mates are Masoud Rahguzar, 
+		Divesh Oree and Rafil Yashooa.
+		</p>
+		</SECTION>
+	<SECTION ID="Section_1">
+		<H3>System Diagram</H3>
+		<p>The webcam will be used to scan ID barcodes and item QR codes to register the parts with students. 
+		The codes will then be processed by the raspberry pi. Once everything is processed the Pi will upload the info to 
+		the database which can then be accessed through a mobile app for a better visual experience.
+		</p>
+		<img src=SystemDiagram.PNG alt="systemdiagram" style="width:700px;height:400px;">
+		<p><i>Image 1: System Diagram shows how the different components work</i></p>
+		
+		</SECTION>
+	<SECTION ID="Section_2">
+		<H3>Bill of Materials/Budget</H3>
+		<p>
+	<p><b>Bill of Materials/Budget:</b></p>
+		<p>Project budget will be posted below:</p>
+		<table>
+		  <tr>
+		    <th>Item</th>
+		    <th>Site</th>
+		    <th>Price</th>
+		  </tr>
+		  <tr>
+		    <td>Raspberry pI 3 B model</td>
+		    <td>Amazon.ca</td>
+		    <td align="right">$50.00 </td>
+		  </tr>
+		  <tr>
+		    <td>Raspberry Pi Assembly Kit</td>
+		    <td>Amazon.ca</td>
+		    <td align="right">$50.00</td>
+		  </tr>
+		  <tr>
+		    <td>Web cam</td>
+		    <td>Walmart</td>
+		    <td align="right">$30.00</td>
+		  </tr>
+		  <tr>
+		    <td>32gb SD card</td>
+		    <td>BestBuy</td>
+		    <td align="right">$20.00</td>
+		  </tr>
+		  <tr>
+		    <td>Raspberry Pi Camera</td>
+		    <td>Amazon.ca</td>
+		    <td align="right">$40.00</td>
+		  </tr>
+		  <tr>
+		    <td>PCB board</td>
+		    <td>Humber</td>
+		    <td align="right">FREE</td>
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td><b>Total:</b></td>
+		    <td align="right">$190.00</td>
+		  </tr>
+		</table>
+		</p>
+
+		</SECTION>	
+	
+	<SECTION ID="Sectio_3">
+		<H3>Time Commitment</H3>
+		<p>The time committed to complete the project was 15 weeks as listed in the project schedule but with the instructions 
+		provided it could be reproduced in less than a week if parts arrive in a time. The first week consisted of creating our 
+		online web template website via github and learning the basics of how to use it. By week 2 the project proposal had been 
+		completed and ready to submit. Week 3 consisted of figuring out my team mates and working on the project schedule. 
+		On week 4 the budget report had been completed and submitted and the order for parts had been placed. By week 5 I had 
+		received my parts and was on my way to assembling while working on completing and testing my PCB. Week 6 I had complete 
+		the mechanical assembly of my project and was ready to start researching the software portion of the hardware. Week 7 was 
+		the first time I had powered up and put together my parts along with peer grading the other students to ensure everyone 
+		was on schedule. I began testing different methods for scanning barcodes and came across a great tool call Zbar which can 
+		be found online. Week 8 we had completed the Placard for our assignment which can be found here(hyperlink). I also began 
+		working on my build video for week 9. Week 10 we had to demonstrate the functionality of our hardware. In the following 
+		weeks I began to improve the software to better scan barcodes with a higher success rate. By week 13 my project was 
+		completed and my presentation was done to show its functionality and purpose. Listed below is a table that shows how much 
+		time it would take to build the project if one were to follow these build instructions.</p>
+		<p><b>Time Commiment Schedule:</b></p>
+	 	<table>
+		  <tr>
+		    <th>Tasks</th>
+		    <th>Time Required</th>
+		  </tr>
+		  <tr>
+		    <td>Preparing Online Webtemplates</td>
+		    <td>1 day</td>
+		  </tr>
+		  <tr>
+		    <td>Parts Ordered and Delievery </td>
+		    <td align="right">2 weeks</td>
+		  </tr>
+		  <tr>
+		    <td>Setting Up Raspberry Pi</td>
+		    <td>1 day</td>
+		  </tr>
+		  <tr>
+		    <td>PCB Soldering </td>
+		    <td align="right">1.5 hours</td>
+		  </tr>
+		  <tr>
+		    <td>Testing PCB </td>
+		    <td align="right">1 hour</td>
+		  </tr>
+		  <tr>
+		    <td>Researching and Coding Software</td>
+		    <td align="right">1 week</td>
+		  </tr>
+		  <tr>
+		    <td>Mechanical Assembly </td>
+		    <td align="right">15 minutes</td>
+		  </tr>
+		 <tr>
+		    <td>Designing Acrylic Box</td>
+		    <td align="right">1 day</td>
+		  </tr>
+		 <tr>
+		    <td>Laser Cutting Box </td>
+		    <td align="right">30 mins</td>
+		  </tr>
+	   
+</table>
+		<p><i>Table1: Displays time required to for each task</i></p>
+		
+		</SECTION>
+	<SECTION ID="Section_4">
+		<H3>Mechanical Assembly</H3>
+		<p>The assembly of my project is quite simple. The webcam connects to the raspberry pi through the USB connector. 
+		The PCB is then connected to the 40 pin connector on top of the raspberry pi. Also connect the HDMI to a monitor for 
+		viewing and connected a power source to the Pi.
+		</p>
+		
+	</SECTION>
+	
+		<SECTION ID="Section_5">
+			<H3>PCB / Soldering</H3>
+			<p>The PCB contains resistors, capacitors, transistors, an LED, 2 four pin headers and a 5 pin header. All of these components 
+			were soldered together using non led based solder and took about an hour to properly solder everything without any errors. 
+			It is best to take your time and fill the entire circular area on the board with enough but not too much solder.
+			</p>
+			<img src=pcb.jpg alt="PCB" style="width:700px;height:400px;">
+			<p><i>Image 3: PCB</i></p>
+	</SECTION>
+	<SECTION ID="Section_6">
+		<H3>Software Setup</H3>
+		<p>Step 1: Raspberry pi Setup Process</P>
+		<P>
+Start by assembling the raspberry pi into its casing. Once all assembled make sure to have your HDMI cable connected first along with a keyboard and mouse. 
+Before powering up your Raspberry Pi make sure your SD card has the appropriate operating system. You can visit Raspberrypi.org to download the free operating system and the instructions on how to install on an SD card. 
+Once that is finished, insert the SD card into the Raspberry Pi and connect the micro USB power adaptor. The unit will take a few minutes for its first time boot.
+Once you have powered up make sure to open up the terminal and run:
+<pre><code>sudo apt-get update</code></pre>
+<pre><code>sudo apt-get upgrade</code></pre>
+This will ensure that you have updated to the latest firmware and drivers.
+Step 2: Download Necessary software
+First you’ll need to install the webcam driver by running:
+<pre><code>sudo apt-get install fswebcam</code></pre>
+Next you’ll need to install python, zbar library and pillow by running:
+<pre><code>sudo apt-get install python-dev</code></pre>
+<pre><code>sudo apt-get install python-pip</code></pre>
+<pre><code>sudo apt-get install python-pip</code></pre>
+<pre><code>sudo apt-get install python-httplib2</code></pre>
+Once all that is installed and downloaded you’ll need to download the zbar library from the official github account and export the files into a single folder. Once downloaded run:
+<pre><code>python setup.py install –user </code></pre>
+This will install the appropriate files and will be done automatically once the command runs. Then download the code listed below and run:
+<pre><code>gcc –Wall –o executable name c_file.c – lwiringPi"</code></pre>
+ Once that code is compiled run the executable name that you chose for the program and youll be able to scan barcodes and view them in a file called student_numbers
+</p>
+		
+	</SECTION>
+	
+	<SECTION ID="Section_7">
+		<H3>Unit Testing</H3>
+		<p>The uniting testing begins the PCB as mentioned in the power up. 
+			It is recommended to use the code that is given by Humber College or at my GitHub page to test if the light indicator works. 
+			The light indictor can work with the command “sudo./traffic2B” if the code is there. 
+			The next step is to check if the webcam work.
+			This can be done by installing FSWEBCAM by putting “sudo apt-get install fswebcam” in the command line of the terminal which will install an easy way to check if the camera works. 
+			Once installed type “fswebcam image.jpg” in the command line and if it takes a picture with good quality the webcam works. After this, the code created for this project can be used which is in my GitHub page. 
+			The program can run by typing “python bar_code.py” in the command line.
+		</p>
+		
+		</SECTION>
+	
+	<SECTION ID="Section_8">
+		<H3>Unit Testing</H3>
+		<p>The unit testing is always the first thing that should be done in order to ensure the reliability of the hardware. 
+		The PCB was the main board we needed to test since it was the only one that had been soldered by us. Most of our hardware 
+		was pre-built and needed to just be connected together. I was able to successfully test my PCB in the prototype lab with Vlad 
+		and all the components were working fine with no shorts or fixes required.</p>
+		
+		</SECTION>
+	
+	<SECTION ID="Section_9">
+		<H3>Project Reproducible ?</H3>
+		<p>Yes, I believe once following these build instructions one can easily reproduce this project in a matter of a week’s time. </p>
+		
+		
+		</SECTION>
+			
+	
+</ARTICLE>
